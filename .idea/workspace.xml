@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7029c70b-05bf-4692-8f07-f8756b9e1b5a" name="Changes" comment="Created project structure.">
-      <change afterPath="$PROJECT_DIR$/src/images/cross.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Course.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Course.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Course.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Student.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701878537130</updated>
-      <workItem from="1701878538177" duration="11319000" />
+      <workItem from="1701878538177" duration="18782000" />
     </task>
     <task id="LOCAL-00001" summary="Created project structure.">
       <option name="closed" value="true" />
