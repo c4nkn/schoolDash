@@ -1,3 +1,8 @@
-static void main(String[] args) {
-  println "Hello world!"
+import javax.swing.JFrame
+
+class Main extends JFrame{
+  static void main(String[] args) {
+    MenuWindow menuForm = new MenuWindow();
+    menuForm.setVisible(true)
+  }
 }
