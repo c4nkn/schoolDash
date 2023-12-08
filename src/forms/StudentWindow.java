@@ -40,7 +40,7 @@ public class StudentWindow extends JFrame {
     String selectedLecturer;
 
     public StudentWindow() {
-        setTitle("Add New classes.Student");
+        setTitle("Add New Student");
         setDefaultCloseOperation(HIDE_ON_CLOSE);
         setSize(400, 500);
         setLocation(550,250);
@@ -141,6 +141,7 @@ public class StudentWindow extends JFrame {
 
                     JsonContent.add(new Gson().toJsonTree(newStudent));
                     DataHandler.saveJsonData("src/data/Students.json", JsonContent);
+                    JOptionPane.showMessageDialog(null, "Student added successfully!", "Successful!", JOptionPane.INFORMATION_MESSAGE);
 
                     newID = createStudentNumber();
                     studentNoTF.setText(String.valueOf(newID));

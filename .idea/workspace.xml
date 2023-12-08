@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7029c70b-05bf-4692-8f07-f8756b9e1b5a" name="Changes" comment="Created project structure.">
-      <change beforePath="$PROJECT_DIR$/schoolDash.iml" beforeDir="false" afterPath="$PROJECT_DIR$/schoolDash.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/CourseWindow.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/CourseWindow.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/CourseWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/CourseWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/MenuWindow.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/MenuWindow.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/StudentWindow.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/StudentWindow.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/StudentWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/StudentWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +71,8 @@
       <recent name="$PROJECT_DIR$/src/data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/forms" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/data" />
     </key>
   </component>
@@ -78,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701878537130</updated>
-      <workItem from="1701878538177" duration="53600000" />
+      <workItem from="1701878538177" duration="54104000" />
     </task>
     <task id="LOCAL-00001" summary="Created project structure.">
       <option name="closed" value="true" />
@@ -114,7 +120,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MenuWindow.java</url>
+          <url>file://$PROJECT_DIR$/src/forms/MenuWindow.java</url>
           <line>37</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

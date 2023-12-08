@@ -70,7 +70,7 @@
         </constraints>
         <properties>
           <labelFor value="f2587"/>
-          <text value="classes.Faculty:"/>
+          <text value="Faculty:"/>
         </properties>
       </component>
       <component id="c5858" class="javax.swing.JComboBox" binding="facultyCB">
@@ -103,7 +103,7 @@
         </constraints>
         <properties>
           <labelFor value="f2587"/>
-          <text value="classes.Course:"/>
+          <text value="Course:"/>
         </properties>
       </component>
       <component id="cd110" class="javax.swing.JComboBox" binding="courseCB">
@@ -126,7 +126,7 @@
         <properties>
           <background color="-13947600"/>
           <foreground color="-16736988"/>
-          <text value="Add classes.Student"/>
+          <text value="Add Student"/>
         </properties>
       </component>
       <component id="7a4dc" class="javax.swing.JButton" binding="clearButton">

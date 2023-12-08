@@ -29,7 +29,7 @@
               </grid>
             </constraints>
             <properties>
-              <text value="Add New classes.Student"/>
+              <text value="Add New Student"/>
             </properties>
           </component>
           <component id="b9ed8" class="javax.swing.JButton" binding="addCourseButton" default-binding="true">
@@ -41,7 +41,7 @@
               </grid>
             </constraints>
             <properties>
-              <text value="Add New classes.Course"/>
+              <text value="Add New Course"/>
             </properties>
           </component>
         </children>
