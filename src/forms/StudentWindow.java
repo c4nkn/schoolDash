@@ -1,10 +1,15 @@
+package forms;
+
+import classes.Course;
+import classes.Faculty;
+import classes.Programs;
+import classes.Student;
 import com.google.gson.*;
 import data.DataHandler;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.ArrayList;
 import java.util.List;
 
 public class StudentWindow extends JFrame {
@@ -35,7 +40,7 @@ public class StudentWindow extends JFrame {
     String selectedLecturer;
 
     public StudentWindow() {
-        setTitle("Add New Student");
+        setTitle("Add New classes.Student");
         setDefaultCloseOperation(HIDE_ON_CLOSE);
         setSize(400, 500);
         setLocation(550,250);

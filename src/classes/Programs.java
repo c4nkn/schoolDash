@@ -1,3 +1,7 @@
+package classes;
+
+import classes.Course;
+
 import java.util.List;
 
 public class Programs {

@@ -1,3 +1,8 @@
+package forms;
+
+import classes.Course;
+import classes.Faculty;
+import classes.Programs;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -30,7 +35,7 @@ public class CourseWindow extends JFrame {
     String programName = programs.programName;
 
     public CourseWindow() {
-        setTitle("Add New Course");
+        setTitle("Add New classes.Course");
         setDefaultCloseOperation(HIDE_ON_CLOSE);
         setSize(400, 400);
         setLocation(550,250);
@@ -110,7 +115,7 @@ public class CourseWindow extends JFrame {
                                         coursesArray.add(new Gson().toJsonTree(newCourse));
 
                                         DataHandler.saveJsonData("src/data/Courses.json", jsonContent);
-                                        JOptionPane.showMessageDialog(null, "Course added successfully!", "Success", JOptionPane.INFORMATION_MESSAGE);
+                                        JOptionPane.showMessageDialog(null, "classes.Course added successfully!", "Success", JOptionPane.INFORMATION_MESSAGE);
                                     }
                                 }
                             }

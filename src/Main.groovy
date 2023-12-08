@@ -1,3 +1,5 @@
+import forms.MenuWindow
+
 import javax.swing.JFrame
 
 class Main extends JFrame{

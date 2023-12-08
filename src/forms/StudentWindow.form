@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="StudentWindow">
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="forms.StudentWindow">
   <grid id="27dc6" binding="StudentWindow" layout-manager="GridLayoutManager" row-count="13" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="30" left="50" bottom="30" right="50"/>
     <constraints>
@@ -70,7 +70,7 @@
         </constraints>
         <properties>
           <labelFor value="f2587"/>
-          <text value="Faculty:"/>
+          <text value="classes.Faculty:"/>
         </properties>
       </component>
       <component id="c5858" class="javax.swing.JComboBox" binding="facultyCB">
@@ -103,7 +103,7 @@
         </constraints>
         <properties>
           <labelFor value="f2587"/>
-          <text value="Course:"/>
+          <text value="classes.Course:"/>
         </properties>
       </component>
       <component id="cd110" class="javax.swing.JComboBox" binding="courseCB">
@@ -126,7 +126,7 @@
         <properties>
           <background color="-13947600"/>
           <foreground color="-16736988"/>
-          <text value="Add Student"/>
+          <text value="Add classes.Student"/>
         </properties>
       </component>
       <component id="7a4dc" class="javax.swing.JButton" binding="clearButton">

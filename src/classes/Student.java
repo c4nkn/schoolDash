@@ -1,3 +1,7 @@
+package classes;
+
+import classes.Course;
+
 public class Student {
     public int studentNumber;
     public String studentName;
