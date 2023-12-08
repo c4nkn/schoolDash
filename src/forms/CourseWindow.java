@@ -115,7 +115,7 @@ public class CourseWindow extends JFrame {
                                         coursesArray.add(new Gson().toJsonTree(newCourse));
 
                                         DataHandler.saveJsonData("src/data/Courses.json", jsonContent);
-                                        JOptionPane.showMessageDialog(null, "Course added successfully!", "Successful Task", JOptionPane.INFORMATION_MESSAGE);
+                                        JOptionPane.showMessageDialog(null, "Course added successfully!", "Great!", JOptionPane.INFORMATION_MESSAGE);
                                     }
                                 }
                             }

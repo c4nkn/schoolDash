@@ -11,6 +11,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;
+import java.util.Objects;
 
 public class StudentWindow extends JFrame {
     private JPanel StudentWindow;
@@ -117,7 +118,7 @@ public class StudentWindow extends JFrame {
         addStudentButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (studentNameTF.getText() == null || studentSurnameTF.getText() == null || facultyCB.getSelectedItem() == null || departmentCB.getSelectedItem() == null || courseCB.getSelectedItem() == null) {
+                if (studentNameTF.getText() == null || Objects.equals(studentNameTF.getText(), "") || Objects.equals(studentSurnameTF.getText(), "") || studentSurnameTF.getText() == null || facultyCB.getSelectedItem() == null || departmentCB.getSelectedItem() == null || courseCB.getSelectedItem() == null) {
                     JOptionPane.showMessageDialog(null, "Please fill in all blank areas!", "Blank Areas", JOptionPane.WARNING_MESSAGE);
                 } else {
                     facultyName = facultyCB.getSelectedItem().toString();
@@ -141,7 +142,7 @@ public class StudentWindow extends JFrame {
 
                     JsonContent.add(new Gson().toJsonTree(newStudent));
                     DataHandler.saveJsonData("src/data/Students.json", JsonContent);
-                    JOptionPane.showMessageDialog(null, "Student added successfully!", "Successful!", JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "Student added successfully!", "Great!", JOptionPane.INFORMATION_MESSAGE);
 
                     newID = createStudentNumber();
                     studentNoTF.setText(String.valueOf(newID));
